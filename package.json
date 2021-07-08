@@ -1,0 +1,12 @@
+{
+    "name": "Weather-Routing-Logistics",
+    "description": "Node-RED Dashboard which overlays TWC weather maos on a HERE truck routing map ",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flow.json",
+            "credentialsFile": "flow_cred.json"
+        }
+    }
+}
