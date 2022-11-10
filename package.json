@@ -20,11 +20,11 @@
     "author": "John Walicki <johnwalicki@gmail.com>",
     "license": "Apache-2.0",
     "dependencies": {
-        "node-red": "1.3.x",
+        "node-red": "3.x",
         "node-red-contrib-here-maps": "github:johnwalicki/node-red-contrib-here-maps.git",
         "node-red-contrib-twc-weather": "0.x",
         "node-red-contrib-web-worldmap": "2.x",
-        "node-red-dashboard": "2.x",
+        "node-red-dashboard": "3.x",
         "node-red-node-ui-table": "0.x",
         "node-red-node-watson": "0.x"
     },
