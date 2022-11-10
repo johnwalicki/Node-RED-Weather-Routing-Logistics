@@ -978,7 +978,7 @@
         "query": "",
         "in": "",
         "apikey": "e3d8a028.af557",
-        "x": 400,
+        "x": 390,
         "y": 260,
         "wires": [
             [
@@ -1287,7 +1287,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 330,
+        "x": 340,
         "y": 440,
         "wires": [
             [
@@ -1336,7 +1336,7 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 520,
+        "x": 550,
         "y": 440,
         "wires": []
     },
