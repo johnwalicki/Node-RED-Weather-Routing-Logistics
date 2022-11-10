@@ -82,11 +82,11 @@ module.exports = {
     // By default, all user data is stored in a directory called `.node-red` under
     // the user's home directory. To use a different location, the following
     // property can be used
-    userDir: '/opt/app-root/src/',
+    userDir: '/opt/app-root/data/',
 
     // Node-RED scans the `nodes` directory in the userDir to find local node files.
     // The following property can be used to specify an additional directory to scan.
-    nodesDir: '/opt/app-root/src/nodes',
+    nodesDir: '/opt/app-root/data/nodes',
 
     // By default, the Node-RED UI is available at http://localhost:1880/
     // The following property can be used to specify a different root path.
@@ -268,9 +268,14 @@ module.exports = {
 
     // Customising the editor
     editorTheme: {
+        tours: false, // disable the Welcome Tour for new users
         projects: {
             // To enable the Projects feature, set this value to true
             enabled: false
         }
-    }
+    },
+    runtimeState: {
+        enabled: true,
+        ui: true
+     }
 };
